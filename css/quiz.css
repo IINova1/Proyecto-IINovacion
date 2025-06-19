@@ -1,0 +1,66 @@
+/* quiz.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #34495e, #2c3e50); /* Degradado oscuro */
+    color: white; /* Ajuste de texto para contraste */
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a5276;
+}
+
+h1 {
+    color: #f1c40f; /* Amarillo dorado */
+}
+
+/* Sección del formulario */
+section {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    border-radius: 10px;
+}
+
+/* Preguntas del quiz */
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Opciones de respuesta */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Botón de envío */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #f39c12; /* Naranja vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e67e22; /* Cambio de color al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #1a5276;
+    font-weight: bold;
+}

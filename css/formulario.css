@@ -1,0 +1,79 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto limpia y legible */
+    margin: 20px; /* Espaciado alrededor de la página */
+    padding: 20px; /* Espaciado interno dentro del body */
+    background-color: #f4f4f4; /* Color de fondo gris claro para mejorar la estética */
+}
+
+/* Estilo para encabezados h2 */
+h2 {
+    text-align: center; /* Alinea el texto del encabezado al centro */
+}
+
+/* Estilos para el formulario */
+form {
+    background: white; /* Color de fondo del formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar el formulario */
+    max-width: 400px; /* Limita el ancho máximo del formulario */
+    margin: auto; /* Centra el formulario horizontalmente */
+}
+
+/* Estilos para etiquetas de los campos del formulario */
+label {
+    font-weight: bold; /* Resalta el texto de las etiquetas */
+}
+
+/* Estilos para los campos de entrada y los select */
+input, select {
+    width: 100%; /* Hace que los elementos ocupen todo el ancho disponible */
+    padding: 8px; /* Espaciado interno */
+    margin-top: 5px; /* Espaciado superior */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border-radius: 4px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde con color neutro */
+}
+
+/* Estilos para el botón de envío */
+button {
+    background-color: #007bff; /* Color azul llamativo */
+    color: white; /* Texto en color blanco */
+    border: none; /* Elimina el borde predeterminado */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    cursor: pointer; /* Cambia el cursor al estilo de un puntero al pasar sobre él */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+button:hover {
+    background-color: #0056b3; /* Oscurece el color del botón en hover */
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center; /* Centra el contenido del encabezado */
+}
+
+/* Estilos para los elementos de lista dentro del encabezado */
+header li {
+    text-align: right; /* Alinea el texto hacia la derecha */
+    border: 2px solid black; /* Agrega un borde negro */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px; /* Espaciado interno */
+    margin: 5px; /* Espaciado entre elementos */
+    list-style: none; /* Elimina los estilos predeterminados de lista */
+}
+
+
+header a {
+    text-decoration: none; /* Eliminar subrayado */
+    color: #007bff; /* Azul más elegante */
+    font-weight: bold; /* Resaltar el texto */
+}
+
+header a:hover {
+    color: #0b0c0d; /* Cambiar color al pasar el cursor */
+}

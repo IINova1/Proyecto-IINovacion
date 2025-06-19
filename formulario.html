@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="js/validar_formulario.js"></script>
+
+</head>
+<body>
+    <header>
+        <li>
+            <a href="inicio.html">IR AL INICIO</a>
+            <a href="inicioSesion.html">IR A INICIO SESIÓN</a>
+        </li>
+    </header>
+    <h2>FORMULARIO</h2>
+    <form action="procesarFormulario.php" method="post" onsubmit="return validarFormulario();">
+        <label for="rut">RUT</label>
+        <input type="text" id="rut" name="rut" required>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="carrera">Carrera</label>
+        <input type="text" id="carrera" name="carrera" required>
+
+        <label for="anio">Año de Carrera</label>
+        <input type="int" id="anio" name="anio" min="1" max="4" required>
+
+        <label for="dificultad">¿Qué te cuesta?</label>
+        <select id="dificultad" name="dificultad">
+            <option value="programacion">Programación</option>
+            <option value="base_datos">Base de Datos</option>
+            <option value="hardware">Hardware</option>
+            <option value="software">Software</option>
+        </select>
+
+        <label for="metodo_estudio">Método de Estudio</label>
+        <select id="metodo_estudio" name="metodo_estudio">
+            <option value="resumenes">Resúmenes</option>
+            <option value="imagenes">Imágenes</option>
+            <option value="videos">Videos</option>
+            <option value="quiz">Quiz</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
